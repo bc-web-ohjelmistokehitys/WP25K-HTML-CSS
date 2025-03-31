@@ -1,6 +1,6 @@
-# Viikko 1 - Tehtävä: Päättöprojekti
+# Viikko 1 ja 2 - Tehtävä: Päättöprojekti
 
-Luo viikon 1 perusprojekti seuraamalla alla olevia vaiheita. Jokainen vaihe vastaa Viikko 1 -ohjeiden aiheita. Suorita nämä vaiheet projektikansiossasi.
+Luo viikon 2 perusprojekti seuraamalla alla olevia vaiheita. Jokainen vaihe vastaa viikkojen 1 ja 2 -ohjeiden aiheita. Suorita nämä vaiheet projektikansiossasi.
 
 ## Tehtävän vaiheet
 
