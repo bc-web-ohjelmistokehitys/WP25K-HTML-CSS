@@ -1,3 +1,5 @@
+![html ja css](/assets/html_css_cover.png)
+
 # HTML ja CSS Kurssi
 
 Tervetuloa **HTML ja CSS Kurssi** repositorioon! Tämä repositorio toimii viikottaisten aiheiden materiaalin jakamiseen. Joka viikko uutta materiaalia ja tehtäviä lisätään repositorioon, joiden avulla saat vahvahn perustan modernista HTML ja CSS koodaamisesta.
