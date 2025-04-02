@@ -1,4 +1,8 @@
-# Viikko 1 ja 2 - Tehtävä: Päättöprojekti
+# Viikko 1 ja 2 - Tehtävä: Päättöprojekti käyntiin
+
+Kurssin päättötyönä syntyy portfolio-sivu, mutta niin isoa kokonaisuutta ei kannata vielä aloittaa.
+
+Jokaisella viikolla harjoitellaan eri osuuksia, joka viikolla omansa. Näistä kerääntyy esimerkkikoodi portfolion tekemiseen.
 
 Luo viikon 2 perusprojekti seuraamalla alla olevia vaiheita. Jokainen vaihe vastaa viikkojen 1 ja 2 -ohjeiden aiheita. Suorita nämä vaiheet projektikansiossasi.
 
