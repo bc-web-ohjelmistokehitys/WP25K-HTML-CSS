@@ -15,9 +15,28 @@ body {
 - Käytä **varafontteja** (fallback fonts), jotta teksti pysyy luettavana, jos ensisijainen fontti ei ole saatavilla.
 - Esimerkki: `font-family: 'Roboto', Arial, sans-serif;`
 
-Tässä on **helppo tapa** lisätä Google-fontteja verkkosivullesi kahdella tavalla: **tuomalla CSS:ssä** ja **linkittämällä `<head>`-osiossa**.
+### Fonttien muotoiluominaisuudet
 
-### **1. Google-fontin linkittäminen `<head>`-osioon (Suositeltu tapa)**
+- `font-size`: Säätää tekstin kokoa.
+- `font-weight`: Määrittää tekstin paksuuden (`normal`, `bold`, `lighter` tai numeeriset arvot kuten `400`, `700`).
+- `font-style`: `normal`, `italic` tai `oblique`.
+- `text-transform`: `uppercase`, `lowercase` tai `capitalize` muokkaavat kirjaimia esim. A -> a.
+
+Esimerkki:
+
+```css
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+```
+
+### Google-fonttien käyttäminen
+
+Tässä on kaksi **helppoa tapaa** lisätä Google-fontteja verkkosivullesi kahdella tavalla: **tuomalla CSS:ssä** ja **linkittämällä `<head>`-osiossa**.
+
+### A. Google-fontin linkittäminen `<head>`-osioon (Suositeltu tapa)
 
 Tämä on helpoin tapa! Lisää `<link>` HTML-tiedostosi `<head>`-osioon.
 
@@ -47,7 +66,7 @@ body {
 
 ✔️ **Paras aloittelijoille** – nopea ja toimii heti!
 
-### **2. Google-fontin tuominen CSS-tiedostossa**
+### B. Google-fontin tuominen CSS-tiedostossa
 
 Tässä menetelmässä Google-fontti tuodaan CSS-tiedoston sisällä `@import`-säännön avulla.
 
@@ -71,23 +90,6 @@ body {
 
 - **Käytä `<link>`-menetelmää**, jos haluat nopeamman sivulatauksen ja paremman suorituskyvyn.
 - **Käytä `@import`-menetelmää**, jos haluat liittää fontit tietyn CSS-tiedoston sisään.
-
-### Fonttien muotoiluominaisuudet
-
-- `font-size`: Säätää tekstin kokoa.
-- `font-weight`: Määrittää tekstin paksuuden (`normal`, `bold`, `lighter` tai numeeriset arvot kuten `400`, `700`).
-- `font-style`: `normal`, `italic` tai `oblique`.
-- `text-transform`: `uppercase`, `lowercase` tai `capitalize`.
-
-Esimerkki:
-
-```css
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-```
 
 ## Värit CSS:ssä
 
@@ -160,7 +162,7 @@ body {
 - **`background-position`**: `center`, `top left`, `50% 50%`.
 - **`background-repeat`**: `no-repeat`, `repeat`, `repeat-x`, `repeat-y`.
 
-### Liukuväritaustat
+### Liukuväritaustat (Linear Gradient)
 
 ```css
 section {
