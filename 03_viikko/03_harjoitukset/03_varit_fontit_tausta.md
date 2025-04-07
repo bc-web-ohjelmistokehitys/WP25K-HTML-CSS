@@ -41,7 +41,7 @@
 - Lisää tyylit:
   - Aseta **taustaväri** koko sivulle (body).
   - Määrittele **otsikolle tekstiväri**, joka erottuu taustasta.
-  - Aseta kappaleille oma **tekstil­e väri**.
+  - Aseta kappaleille oma **tekstiväri**.
 
 ---
 
