@@ -1,6 +1,6 @@
 # Kurssin aloitussivu
 
-Luomme aloitussivun, joka on saanut inspiraationsa [BC Full Stack -ohjelmasta](https://en.bc.fi/qualifications/full-stack-web-developer-program/)
+Luomme landing pagen eli aloitussivun, joka on saanut inspiraationsa [BC Full Stack -ohjelmasta](https://en.bc.fi/qualifications/full-stack-web-developer-program/)
 
 # 1. Projektin alustus
 
