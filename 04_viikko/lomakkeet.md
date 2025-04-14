@@ -8,13 +8,13 @@ Peruslomake koostuu `<form>`-elementistä, joka sisältää syötekenttiä ja l�
 
 ```html
 <form action="/submit" method="POST">
-  <label for="name">Name:</label>
+  <label for="name">Nimi:</label>
   <input type="text" id="name" name="name" required />
 
-  <label for="email">Email:</label>
+  <label for="email">Sähköposti:</label>
   <input type="email" id="email" name="email" required />
 
-  <button type="submit">Submit</button>
+  <button type="submit">Lähetä</button>
 </form>
 ```
 
@@ -47,15 +47,15 @@ Semanttisen HTML:n käyttö tekee lomakkeista helpommin luettavia ja saavutettav
 ```html
 <form>
   <fieldset>
-    <legend>Personal Information</legend>
-    <label for="name">Name:</label>
+    <legend>Henkilötiedot</legend>
+    <label for="name">Nimi:</label>
     <input type="text" id="name" name="name" required />
 
-    <label for="message">Message:</label>
+    <label for="message">Viesti:</label>
     <textarea id="message" name="message" rows="4" cols="30"></textarea>
   </fieldset>
 
-  <button type="submit">Submit</button>
+  <button type="submit">Lähetä</button>
 </form>
 ```
 
@@ -81,17 +81,17 @@ Semanttisen HTML:n käyttö tekee lomakkeista helpommin luettavia ja saavutettav
   <label for="email">Email:</label>
   <input type="email" id="email" name="email" required />
 
-  <label for="age">Age:</label>
+  <label for="age">Ikä:</label>
   <input type="number" id="age" name="age" min="18" />
 
-  <label for="dob">Date of Birth:</label>
+  <label for="dob">Syntymäaika:</label>
   <input type="date" id="dob" name="dob" />
 
-  <label>Choose an option:</label>
-  <input type="radio" id="option1" name="choice" value="1" /> Option 1
-  <input type="radio" id="option2" name="choice" value="2" /> Option 2
+  <label>Valitse vaihtoehto:</label>
+  <input type="radio" id="option1" name="choice" value="1" /> Vaihtoehto 1
+  <input type="radio" id="option2" name="choice" value="2" /> Vaihtoehto 2
 
-  <button type="submit">Submit</button>
+  <button type="submit">Lähetä</button>
 </form>
 ```
 
