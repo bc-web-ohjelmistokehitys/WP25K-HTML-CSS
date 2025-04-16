@@ -14,6 +14,7 @@
 # 3. CSS asettelut
 
 - Hio lomakkeen asettelu ja ulkonäkö kuntoon.
+- Sivulla käytetty fontti on **Raleway**
 
 # 4. Validaatio
 
