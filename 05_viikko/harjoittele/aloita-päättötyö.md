@@ -27,6 +27,12 @@ Sivustossasi tulee olla seuraavat ominaisuudet:
 
 ---
 
+### Esimerkit:
+
+[mobiiliversio](/assets/mobile_example.png) sekä [desktop-versio](/assets/desktop_example.png)
+
+---
+
 ### Huomioitavaa:
 
 - Tee sivusta omasi. Valitse fontit, värit ja kuvat, jotka edustavat sinua.
