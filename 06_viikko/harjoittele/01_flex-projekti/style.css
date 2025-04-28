@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* --- Header & nav --- */
+.header {
+  /* Flexbox-määrittelyt poistettu */
+  padding: 1rem 2rem;
+  background: #222;
+  color: #fff;
+}
+.nav {
+  /* Flexbox-määrittelyt poistettu */
+  gap: 1.5rem; /* navigaation linkkien väli */
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* --- Hero --- */
+.hero {
+  /* Flexbox-määrittelyt poistettu */
+  height: 45vh;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: #fff;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Ohjelmakalenteri --- */
+.calendar {
+  /* Flexbox-määrittelyt poistettu */
+  gap: 1rem;
+  padding: 2rem;
+}
+.day-card {
+  /* Flex-määrittelyt poistettu */
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.day-card h2 {
+  margin-bottom: 0.5rem;
+}
+.artist {
+  margin: 0.25rem 0;
+  /* Flex-määrittelyt poistettu */
+}
+.artist .time {
+  display: inline-block;
+  width: 3.5rem; /* tilaa ajalle */
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: #555;
+  text-align: right;
+}
+
+/* --- Lipputen kortit --- */
+.tickets {
+  /* Flexbox-määrittelyt poistettu */
+  gap: 1rem;
+  padding: 2rem;
+}
+.ticket-card {
+  /* Flex-määrittelyt poistettu */
+  padding: 1.5rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+}
+.ticket-card.vip {
+  /* Flex-määrittelyt poistettu */
+  border-color: gold;
+}
+.ticket-card h3 {
+  margin-bottom: 0.5rem;
+}
+.ticket-card p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.ticket-card ul {
+  list-style: disc inside;
+}
+
+/* --- Sijainti & kartta --- */
+.location {
+  /* Flexbox-määrittelyt poistettu */
+  gap: 2rem;
+  padding: 2rem;
+}
+/* Kartan kontaineri vie 1/3 vaakatilasta desktopilla */
+.map {
+  /* Flex-määrittelyt poistettu */
+}
+.map img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+/* Osoiteteksti vie loput tilasta */
+.address {
+  /* Flex-määrittelyt poistettu */
+}
+.address h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* --- Footer --- */
+.footer {
+  /* Flexbox-määrittelyt poistettu */
+  padding: 1.5rem;
+  background: #222;
+  color: #fff;
+}
+.social {
+  /* Flexbox-määrittelyt poistettu */
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Alla oleva on vapaaehtoinen osuus! */
+
+/* --- Responsiivisuus --- */
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* piilota nav mobiilissa */
+  }
+  /* Flex-määrittelyt poistettu: .calendar, .tickets, .location */
+
+  /* Kartta ja osoite täyttävät koko leveyden mobiilissa */
+  .map,
+  .address {
+    /* Flex-määrittelyt poistettu */
+    width: 100%;
+  }
+}
