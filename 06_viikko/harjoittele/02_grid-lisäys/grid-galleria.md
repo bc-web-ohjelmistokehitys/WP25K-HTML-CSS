@@ -13,3 +13,5 @@ Lisätään sivulle kuvagelleria, joka käyttää CSS Gridiä.
 ![Galleria](grid-asettelu.png)
 
 - Voit käyttää esimerkkikuvat-kansion kuvia, mutta saat etsiä myös omat. Nämä ovat suoraan Canvasta, eikä niitä ole juurikaan muokattu, joten tekijänoikeudellisesta näkökulmasta niiden käyttö on pieni riski.
+
+- **Desktop-toteutus riittää**, mobiili-asettelun saa lisätä.
