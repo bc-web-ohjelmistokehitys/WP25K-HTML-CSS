@@ -4,7 +4,7 @@ CSS Grid on **tehokas** asettelujärjestelmä, jonka avulla on helppo luoda **re
 
 ## Mikä on CSS Grid?
 
-CSS Grid on asettelumenetelmä, joka jakaa säiliön **riveihin** ja **sarakkeisiin**, ja elementit voidaan sijoittaa tämän rakenteen sisälle.
+CSS Grid eli ruudukko on asettelumenetelmä, joka jakaa säiliön **riveihin** ja **sarakkeisiin**, ja elementit voidaan sijoittaa tämän rakenteen sisälle.
 
 Aktivoidaksesi Gridin, lisää säiliöön `display: grid;`.
 
@@ -184,3 +184,7 @@ Voit **antaa alueille nimiä** ja sijoittaa elementit käyttämällä `grid-area
 `gap` hallitsee elementtien välistä tilaa.  
 `justify-items` ja `align-items` kohdistavat elementit gridissä.  
 `grid-area` mahdollistaa nimettyjen alueiden käytön.
+
+## Interaktiivinen opas
+
+Sivulla [www.joshwcomeau.com/css/interactive-guide-to-grid/](https://www.joshwcomeau.com/css/interactive-guide-to-grid/) voit testata CSS Gridin eri ominaisuuksia. Koska "ruudukko" itse on näkymätön, on Josh Comeau lisännyt esimerkkeihin toisen tason, johon ruudukko piirtyy.

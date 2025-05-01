@@ -204,4 +204,8 @@ Säätää **rivitysten välistä tilaa**. Eli riveillä on käytössä `flex-wr
 `flex-wrap` määrittää, saavatko elementit rivittyä.  
 `flex-grow`, `flex-shrink` ja `flex-basis` säätävät elementin kokoa.
 
-Erinomainen ohje: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+## Ohjeita netissä
+
+Erinomainen sivu: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+Interaktiivinen opas ominaisuuksien testailuun: [www.joshwcomeau.com/css/interactive-guide-to-flexbox/](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
