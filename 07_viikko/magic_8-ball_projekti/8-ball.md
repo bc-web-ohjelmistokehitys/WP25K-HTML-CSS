@@ -49,6 +49,8 @@ Rakenna interaktiivinen Magic 8-pallo -sovellus HTML\:llä, CSS\:llä ja JavaScr
    - Tee pallosta pyöreä ja noin **300 × 300 px** kokoinen.
    - **Suositelen käyttämään AI-työkaluja (esim. ChatGPT, CSS-generoijat) varjostusten, gradienttien ja tekstuurin luomiseksi.**
    - Tässä esimerkki tekoälyn tuottamasta pallosta, joka on toteutettu CSS:llä
+  
+     
      ![/kasipallo](/assets/kasipallo.png)
 
 2. **Ikkuna ja sisäelementit**
